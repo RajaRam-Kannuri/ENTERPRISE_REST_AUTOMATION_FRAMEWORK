@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Rest_Assured_Automation_Framework" >
+    <listeners>
+        <listener class-name="com.rest.apitest.listeners.TestStatusListener"/>
+        <listener class-name="com.rest.apitest.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test name="UnixTimeStamp">
+        <classes>
+            <class name="com.rest.apitest.businessLogics.UnixTimeStamp"/>
+        </classes>
+    </test>
+</suite>

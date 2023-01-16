@@ -1,0 +1,26 @@
+{
+  "endpoints":
+     {
+       "DATE_STRING_TO_UNIX":
+       {
+       
+        "authentication":"NA",
+        "uri":"https://helloacm.com/api/unix-timestamp-converter/?cached&s=1451613802",
+        "method":"GET"
+       },
+       "UNIX_TO_DATE_STRING":
+       {
+        "authentication":"NA",
+        "uri":"/api/unix-timestamp-converter/?cached&s=1451613802",
+        "method":"GET"
+       },
+       "UNIX_INVALID_TIMESTAMP":
+       {
+        "authentication":"NA",
+        "uri":"/api/unix-timestamp-converter/?cached&s=abc",
+        "method":"GET"
+       }
+       
+       
+     }
+}
