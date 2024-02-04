@@ -63,8 +63,9 @@ public class API implements IApi {
 	public void initBase(String baseConst) {
 		Helper getHelp = new Helper();
 		getHelp.set_path("src/main/resources/Constants.properties");
+		System.out.println(System.getProperty("user.dir"));
 		try {
-//			RestAssured.baseURI = getHelp.loadProperties(baseConst);
+			RestAssured.baseURI = getHelp.loadProperties(baseConst);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -53,7 +53,7 @@
 					<i class='mdi-hardware-desktop-windows'></i>
 				</li>
 				<li>
-					<span class='suite-started-time'>2023-01-16 22:03:09</span>
+					<span class='suite-started-time'>2024-02-05 00:49:19</span>
 				</li>
 				<li>
 					<span>v2.41.1</span>
@@ -83,25 +83,25 @@
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-current'> 
 							<span class='panel-name'>Total Time Taken (Current Run)</span> 
-							<span class='suite-total-time-current-value panel-lead'>0h 0m 1s+389ms</span> 
+							<span class='suite-total-time-current-value panel-lead'>0h 0m 0s+733ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-overall'> 
 							<span class='panel-name'>Total Time Taken (Overall)</span> 
-							<span class='suite-total-time-overall-value panel-lead'>0h 0m 1s+389ms</span> 
+							<span class='suite-total-time-overall-value panel-lead'>0h 0m 0s+733ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-start-time'>
 						<div class='card accent green-accent'> 
 							<span class='panel-name'>Start</span> 
-							<span class='panel-lead suite-started-time'>2023-01-16 22:03:07</span> 
+							<span class='panel-lead suite-started-time'>2024-02-05 00:49:18</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-end-time'>
 						<div class='card accent pink-accent'> 
 							<span class='panel-name'>End</span> 
-							<span class='panel-lead suite-ended-time'>2023-01-16 22:03:09</span> 
+							<span class='panel-lead suite-ended-time'>2024-02-05 00:49:19</span> 
 						</div> 
 					</div>
 				</div>
@@ -180,7 +180,7 @@
 										</tr>
 										<tr>
 											<td>Host Name</td>
-											<td>192.168.1.3</td>
+											<td>192.168.1.11</td>
 										</tr>
 								</tbody>
 							</table>
@@ -237,19 +237,19 @@
 						<div class='card-panel no-padding-h no-padding-v no-margin-v'>
 							<div class='wrapper'>
 								<ul id='test-collection' class='test-collection'>
-										<li class='collection-item test displayed active pass ' extentid='d7aedcc7-adde-4568-be50-b92f4e094407'>
+										<li class='collection-item test displayed active pass ' extentid='3a9cb8c3-1152-422f-80bf-d58a86e9bf32'>
 											<div class='test-head'>
-												<span class='test-name'>getTimeStampforDate </span>
+												<span class='test-name'>As a User I should be able to get the Next Birthday Date by inputting the Date Of Birth Valid DOB </span>
 												<span class='test-status label right outline capitalize pass'>pass</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2023-01-16 22:03:07</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2023-01-16 22:03:09</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 1s+265ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2024-02-05 00:49:18</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'></span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'></span>
 												</div>
-												<div class='test-desc'>Description: As a User I should be able to convert the Date String to Unix Time</div>
+												<div class='test-desc'></div>
 												<div class='test-attributes'>
 												</div>
 												<div class='test-steps'>
@@ -264,17 +264,59 @@
 														<tbody>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>22:03:08</td>
-																	<td class='step-details'>URL is: https://helloacm.com/api/unix-timestamp-converter/?cached&s=1451613802</td>
+																	<td class='timestamp'>00:49:19</td>
+																	<td class='step-details'>URL is: /GetNextBirthday/1993-03-05</td>
 																</tr>
 																<tr>
 																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
-																	<td class='timestamp'>22:03:09</td>
-																	<td class='step-details'>Asserting response code</td>
+																	<td class='timestamp'>00:49:19</td>
+																	<td class='step-details'>Asserting response code:200</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active pass ' extentid='758e1d90-1678-433c-a87c-e6c36f194e8a'>
+											<div class='test-head'>
+												<span class='test-name'>As a User I when I send the Inappropriate DOB in the Query String it should return 400 Error Message </span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
+												<span class='category-assigned hide '></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2024-02-05 00:49:19</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2024-02-05 00:49:19</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+19ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
+																	<td class='timestamp'>00:49:19</td>
+																	<td class='step-details'>URL is: /GetNextBirthday/1993-5</td>
+																</tr>
+																<tr>
+																	<td class='status info' title='info' alt='info'><i class='mdi-action-info-outline'></i></td>
+																	<td class='timestamp'>00:49:19</td>
+																	<td class='step-details'>Asserting response code:400</td>
 																</tr>
 																<tr>
 																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
-																	<td class='timestamp'>22:03:09</td>
+																	<td class='timestamp'>00:49:19</td>
 																	<td class='step-details'>Test passed</td>
 																</tr>
 														</tbody>

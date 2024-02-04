@@ -52,6 +52,17 @@ public class Auth extends API{
 		String response = callIt();
 		return response;
 	}
+	public String getNextBirthday(String method)
+	{
+		initBase("Host");
+		init(reader.getURI(method).toString(), reader.getHttpMethod(method).toString());
+		System.out.println(reader.getURI(method).toString());
+		setHeader("User-Agent","Rest-Assured/4.3.0");
+//		setHeader("Content-Type", "application/json");
+//        setHeader("accept","*/*");
+		String response = callIt();
+		return response;
+	}
 
 	
 	

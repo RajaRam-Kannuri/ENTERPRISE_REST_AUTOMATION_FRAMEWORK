@@ -4,9 +4,9 @@
         <listener class-name="com.rest.apitest.listeners.TestStatusListener"/>
         <listener class-name="com.rest.apitest.listeners.AnnotationTransformer"/>
     </listeners>
-    <test name="UnixTimeStamp">
+    <test name="Get Next Birthday">
         <classes>
-            <class name="com.rest.apitest.businessLogics.UnixTimeStamp"/>
+            <class name="com.rest.apitest.businessLogics.GetNextBirthday"/>
         </classes>
     </test>
 </suite>
