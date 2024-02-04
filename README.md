@@ -35,8 +35,7 @@ In case of error in all import statements
 **HTML Report**
 > Test Reports can be found in `workingDir/ExtentReports/ExtentReportResults.html`
 **Test Summary**
-![alt text](https://github.com/RajaRam-Kannuri/ENTERPRISE_REST_AUTOMATION_FRAMEWORK/blob/main/ExtentReports/reports%20sample%20img1.png?raw=true)
+![alt text](https://github.com/RajaRam-Kannuri/ENTERPRISE_REST_AUTOMATION_FRAMEWORK/blob/main/ExtentReports/report%20sample%20img1.png?raw=true)
 
 **Specific Test details**
-![alt text](https://github.com/RajaRam-Kannuri/ENTERPRISE_REST_AUTOMATION_FRAMEWORK/blob/main/ExtentReports/reports%20sample%20img2.png?raw=true)
-![alt text](https://github.com/RajaRam-Kannuri/ENTERPRISE_REST_AUTOMATION_FRAMEWORK/blob/main/ExtentReports/reports%20sample%20img3.png?raw=true)
+![alt text](https://github.com/RajaRam-Kannuri/ENTERPRISE_REST_AUTOMATION_FRAMEWORK/blob/main/ExtentReports/report%20sample%20img2.png?raw=true)
